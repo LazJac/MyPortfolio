@@ -1,0 +1,6 @@
+GCSnull = .ser files are what your should use if jou want a first login(most file are empty)
+333ofAll folder = .ser files with 3 examples in each file
+
+The 6 .ser file inside these files should be copyed-and-replaysed depending on what you want
+
+(There should be no less or more then 6 .ser file in THIS folder)

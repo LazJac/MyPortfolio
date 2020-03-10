@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=StockManagement(FileSystem.FileName)
+comment1.params=
+comment1.target=java.util.ArrayList\ getList()
+comment2.params=arrList
+comment2.target=void\ setList(java.util.ArrayList)
+numComments=3

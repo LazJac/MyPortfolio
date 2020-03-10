@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=Name\ Size\ SizeType\ Expi\ DayOfWeek
+comment0.target=StorageData(java.lang.String,\ float,\ int,\ int,\ int)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=Size
+comment2.target=void\ setSize(float)
+comment3.params=
+comment3.target=float\ getSize()
+comment4.params=SizeType
+comment4.target=void\ setType(int)
+comment5.params=
+comment5.target=int\ getType()
+comment6.params=
+comment6.target=int\ getExpiration()
+comment7.params=
+comment7.target=int\ getDayOfWeek()
+numComments=8

@@ -1,0 +1,172 @@
+html {
+	margin: 10px 6px 10px 20px;
+}
+
+#loginscr {
+	background: url('images/loginscreen.png') fixed no-repeat;
+}
+
+#d1_scr {
+	background: url('images/design1.png') fixed repeat-y;
+}
+
+#d2_scr {
+	background: url('images/design2.png') fixed no-repeat;
+}
+
+#d3_scr {
+	background: url('images/design3.png') fixed no-repeat;
+}
+
+body.loginCenter {
+	position: fixed;
+	top: 45%;
+	left: 25%;
+	transform: translate(-50%,-90%);
+}
+
+#headingOCR {
+	text-decoration: underline overline;
+	
+	font-family: "OCR A Std", monospace;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 2.75em;
+}
+
+#headingOCRsimple {
+	color: #e9922e;
+	
+	text-decoration: underline;
+	
+	font-family: "OCR A Std", monospace;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 2.75em;
+}
+
+.error {
+    color: #dd7d8f;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	
+	padding-left: 8px;
+}
+
+.framItems  {
+	font-family: "American Typewriter", serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	
+	border: 8px solid #f2f2f2;
+	padding: 10px 6px 10px 6px;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-decoration: underline;
+	margin: 0px 0px 0px 0px;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin: 10px 0px 0px 0px;
+}
+
+input {
+	font-family: Palatino, URW Palladio L, serif;
+	font-size: 1.2em;
+}
+
+a:link {
+	color: black;
+	
+	text-decoration: none;
+	
+	font-family: Gill Sans, sans-serif
+}
+
+a:visited {
+	color: #e9922e;
+	
+	text-decoration: none;
+	
+	font-family: Gill Sans, sans-serif;
+}
+a:hover {
+	color: #30b6ee;
+	
+	text-decoration: none;
+	
+	font-family: Gill Sans, sans-serif;
+}
+a:active {
+	color: #dd7d8f;
+	
+	text-decoration: underline;
+	
+	font-family: Gill Sans, sans-serif;
+}
+
+table, th, td {
+	background-color: white;
+	border: 1px solid black;
+}
+
+/* Side-panel styles start here */
+
+body {
+	font-family: Gill Sans, sans-serif;
+    transition: background-color .5s;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

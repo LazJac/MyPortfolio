@@ -1,0 +1,112 @@
+#logo { float: left; }
+
+#nav
+     {
+      background: url(http://4.bp.blogspot.com/-dVtgikk-kOY/UprtswP0yGI/AAAAAAAADag/Og0DtZ8t_oQ/s1600/header+base.png) no-repeat scroll top left;     background-color: none;
+     width:100%;
+     height:66px;
+      box-shadow: 0px 1px 10px #5E5E5E;
+      position:fixed;
+      top:0px;
+    }
+
+.title
+ {
+display:none;
+ color:#EDEDED;
+ font-family:verdana;
+ font-size:25px;
+ width:350px;
+ margin-top:6px;
+ margin-left:150px;
+ font-weight:bold;
+ float:left;
+}
+
+
+#navigation
+{
+ list-style-type:none; 
+}
+
+
+li 
+{ 
+
+display:inline;
+ padding:15px;
+ }
+#nav a
+{
+font-size: 1.6em;
+text-transform: uppercase;
+text-shadow: 0 0 0.3em #464646;
+ font-weight: bold;
+ font-family:century gothic;
+  text-decoration:none;
+ color:#262626;
+ opacity:0.26;
+} 
+ #nav a:hover 
+{
+opacity:0.36;
+}
+
+
+
+CENTERED
+
+#logo { float: left; }
+
+#nav
+     {
+      background: url(http://4.bp.blogspot.com/-dVtgikk-kOY/UprtswP0yGI/AAAAAAAADag/Og0DtZ8t_oQ/s1600/header+base.png) no-repeat scroll top left;     background-color: none;
+     width: 1500px;
+     height:66px;
+      box-shadow: 0px 1px 10px #5E5E5E;
+      position:fixed;
+      top:0px;
+    }
+
+.title
+ {
+display:none;
+ color:#EDEDED;
+ font-family:verdana;
+ font-size:25px;
+ width:350px;
+ margin-top:6px;
+ margin-left:150px;
+ font-weight:bold;
+ float:left;
+}
+
+
+.navigation
+{
+ list-style-type:none; 
+    float: left;
+}
+
+
+li 
+{ 
+
+display:inline;
+ padding:15px;
+ }
+#nav a
+{
+font-size: 1.6em;
+text-transform: uppercase;
+text-shadow: 0 0 0.3em #464646;
+ font-weight: bold;
+ font-family:century gothic;
+  text-decoration:none;
+ color:#262626;
+ opacity:0.26;
+} 
+ #nav a:hover 
+{
+opacity:0.36;
+}

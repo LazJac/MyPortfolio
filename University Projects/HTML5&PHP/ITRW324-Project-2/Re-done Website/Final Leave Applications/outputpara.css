@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background-image: url(city.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#back{
+	width: 100%;
+	height: 100vh;
+	background-color: #191970;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#logo{
+	font-family: Vogue;
+	font-size: 50px;
+	color: #FFB6C1;
+	position: fixed;
+	top: 1%;
+	left: 40%;
+	width: 100px;
+	height: 80px;
+}
+
+
+#men{
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	height: 40px;
+	background-color: #FFB6C1;
+	font-family: Vogue;
+	font-size: 25px;
+}
+
+#men li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	justify-content: center;
+}
+
+#men li a{
+	display: block;
+	padding: 0 30px;
+	color: #191970;
+	text-decoration: none;
+}
+
+#men li a:hover{
+	background-color: black;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+#men li #info li{
+	background-color: #FFB6C1;
+	color: #191970;
+	width: 300px;
+	height: 60px; 
+	list-style: none;
+	display: none;
+}
+
+#men li:hover #info li{
+	display: block;
+}
+
+#inst{
+	font-size: 30px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	width: 700px;
+	height: 40px;
+	text-align: center;
+}
+
+#mes{
+	font-size: 30px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	width: 700px;
+	height: 40px;
+	text-align: center;
+}

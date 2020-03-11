@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration - Leave Applications</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css" type="text/css"/>
+</head>
+<body>
+<div id="background">
+	<p id="logback"></p>
+</div>
+<h1 id="heading"><b>Register an Account</b></h1>
+<label id="lblName">Name:&nbsp;</label>
+<input type="text" name="tbName" id="tbName">
+<label id="lblSurname">Surname:&nbsp;</label>
+<input type="text" name="tbSurname" id="tbSurname">
+<label id="lblID">Identity Number:&nbsp;</label>
+<input type="text" name="tbID" id="tbID" maxlength="10">
+<label id="lblGender">Gender:&nbsp;</label>
+<select id="dropGender">
+	<option id="genFemale">Female</option>
+	<option id="genMale">Male</option>
+</select>
+<label id="lblDate">Date Employed:&nbsp;</label>
+<input type="date" name="dEmp" id="dEmp">
+<label id="lblEmail">E-Mail Address:&nbsp;</label>
+<input type="text" name="tbEmail" id="tbEmail" placeholder="123@example.com">
+<label id="lblPass1">Password:&nbsp;</label>
+<input type="Password" name="tbPass1" id="tbPass1">
+<label id="lblPass2">Re-Enter Password:&nbsp;</label>
+<input type="Password" name="tbPass2" id="tbPass2">
+<input type="submit" name="btnAdd" id="btnAdd" value="Add Account">
+<input type="button" name="btnCancel" id="btnCancel" value="Cancel">
+</body>
+</html>

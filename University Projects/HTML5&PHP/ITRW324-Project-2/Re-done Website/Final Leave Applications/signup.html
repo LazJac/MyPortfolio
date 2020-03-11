@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SENTINET - SIGN UP</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="signup.css" type="text/css"/>
+</head>
+<body>
+    <div id="temp">
+        <p id="back"></p>
+        <h1 id="logo">SENTINET</h1>
+    </div>
+    <nav id="menu">
+    <ul id="men">
+    	<li id="home"><a href="#">Home</a></li>
+    	<li id="information"><a href="#">Information</a>
+    	<ul id="info">
+    		<li id="past"><a href="#">Historical Leave</a></li>
+    		<li id="bal"><a href="#">Balances</a></li>
+    		<li id="pending"><a href="#">Pending Leave</a></li>
+    	</ul>	
+    	</li>
+    	<li id="apply"><a href="#">Apply</a></li>
+    	<li id="contact"><a href="#">Contact Details</a></li>
+    </ul>
+	</nav>
+    <label id="inst">Create an employee account</label>
+    <label id="num">Employee Number:</label>
+    <input type="text" name="empNum" id="upNum" placeholder="eg. STE001">
+
+    <label id="name">Employee Name:</label>
+    <input type="text" name="empName" id="upName" placeholder="eg. Max Steel">
+
+    <label id="idnum">Identity Number:</label>
+    <input type="number" name="number" id="upID" placeholder="eg. 1234567890123">
+
+    <label id="gen">Gender:</label>
+    <p id="radGen">
+    	<input type="radio" name="gender" value="Male" checked="checked">Male
+    	<input type="radio" name="gender" value="Female">Female
+    </p>
+
+    <label id="dep">Department:</label>
+    <select id="department">
+    	<option id="hr">Administration</option>
+    	<option id="marketing">Marketing</option>
+    	<option id="exec">Executive</option>
+    	<option id="it">Information Technology</option>
+    	<option id="manu">Manufacturing</option>
+    	<option id="acc">Accounting</option>
+    	<option id="law">Law</option>
+    	<option id="security">Security</option>
+    </select>
+
+    <label id="manLevel">Management Level:</label>
+    <select id="manLev">
+    	<option id="topHigh">Top High Level</option>
+    	<option id="botHigh">Bottom High Level</option>
+    	<option id="topMid">Top Middle Level</option>
+    	<option id="botMid">Bottom Middle Level</option>
+    	<option id="topLow">Top Lower Level</option>
+    	<option id="botLow">Bottom Lower Level</option>
+    	<option id="none">None of the above</option>
+    </select>
+
+    <label id="pass1">Password:</label>
+    <input type="password" name="pass" id="passOne">
+
+    <label id="pass2">Re-Enter Password:</label>
+    <input type="password" name="pass" id="passTwo">
+
+    <input type="submit" name="submit" id="submit" value="Sign Up">
+
+	<input type="reset" name="cancel" id="can" value="Cancel">
+</body>
+</html>

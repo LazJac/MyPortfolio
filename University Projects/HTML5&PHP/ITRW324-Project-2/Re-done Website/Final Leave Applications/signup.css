@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background-image: url(city.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#back{
+	width: 100%;
+	height: 100vh;
+	background-color: #191970;
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#logo{
+	font-family: Vogue;
+	font-size: 50px;
+	color: #FFB6C1;
+	position: fixed;
+	top: 1%;
+	left: 40%;
+	width: 100px;
+	height: 80px;
+}
+
+
+#men{
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	height: 40px;
+	background-color: #FFB6C1;
+	font-family: Vogue;
+	font-size: 25px;
+}
+
+#men li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	justify-content: center;
+}
+
+#men li a{
+	display: block;
+	padding: 0 30px;
+	color: #191970;
+	text-decoration: none;
+}
+
+#men li a:hover{
+	background-color: black;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+#men li #info li{
+	background-color: #FFB6C1;
+	color: #191970;
+	width: 300px;
+	height: 60px; 
+	list-style: none;
+	display: none;
+}
+
+#men li:hover #info li{
+	display: block;
+}
+
+#inst{
+	font-size: 30px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	width: 700px;
+	height: 40px;
+	text-align: center;
+}
+
+#num{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#upNum{
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 49%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#name{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#upName{
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 54%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#idnum{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#upID{
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 59%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#gen{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#radGen{
+	font-family: Vogue;
+	color: #FFB6C1;
+	font-size: 20px;
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#dep{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#department{
+	font-family: calibri;
+	font-size: 18px;
+	position: absolute;
+	top: 69%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#manLevel{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 75%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#manLev{
+	font-family: calibri;
+	font-size: 18px;
+	position: absolute;
+	top: 74%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#pass1{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#passOne{
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 79%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#pass2{
+	font-size: 20px;
+	font-family: Vogue;
+	color: #FFB6C1;
+	position: absolute;
+	top: 85%;
+	left: 30%;
+	width: 200px;
+	height: 30px;
+}
+
+#passTwo{
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 84%;
+	left: 45%;
+	width: 300px;
+	height: 25px;
+}
+
+#submit{
+	background-color: transparent;
+	color: #FFB6C1;
+	border: 2px solid #FFB6C1;
+	font-family: Vogue;
+	font-size: 25px;
+	font-weight: bold;
+	position: fixed;
+	top: 90%;
+	left: 40%;
+	width: 120px;
+	height: 40px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+#submit:hover{
+	background-color: #FFB6C1;
+	color: #191970;
+}
+
+#can{
+	background-color: transparent;
+	color: #FFB6C1;
+	border: 2px solid #FFB6C1;
+	font-family: Vogue;
+	font-size: 25px;
+	font-weight: bold;
+	position: fixed;
+	top: 90%;
+	left: 50%;
+	width: 120px;
+	height: 40px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+#can:hover{
+	background-color: #FFB6C1;
+	color: #191970;
+}

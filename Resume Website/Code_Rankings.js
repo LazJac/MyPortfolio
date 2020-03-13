@@ -1,50 +1,43 @@
 "use strict";
 
 
-
-class RankingItem
+const RankingItem =
 {
-    name: string;
-}
+    name
+};
 
-class IRatings
+//const IRatings =
+//{
+//    SetCodeRankingList: function(list)
+//    {
+//        this.items = list;
+//    }
+//};
+
+const CodeRankingList =
 {
-    let SetCodeRankingList(list)<RankingItem>: function();
-}
-
-class CodeRankingList implements IRatings
-{
-
-    constructor()
+    AddItem: function(item)
     {
-        constructor(null);
-    }
+        this.codeRankingList.push(item);
+    },
 
-    constructor(rankingList)
-    {
-        this.codeRankingList = rankingList;
-    }
-
-    function GetCodeRankingList()<RankingItem>
+    get GetCodeRankingList()
     {
         return this.codeRankingList;
-    }
+    },
 
-    let function SetCodeRankingList(list)<RankingItem>
+    set SetCodeRankingList(list)
     {
         this.codeRankingList = list;
     }
-
-    function AddItem(item)<RankingItem>
-    {
-        this.codeRankingList.push(item);
-    }
-}
+};
 
 
-var list = [ new RankingItem().name = "first",new RankingItem().name ="second"];
-var CRL = new CodeRankingList(list);
-console.log(CRL.GetCodeRankingList());
+var list = [ RankingItem.name = "first", RankingItem.name = "second"];
+var CRL = CodeRankingList;
+CRL.SetCodeRankingList = list;
+CRL.AddItem(RankingItem.name = "third");
+console.log(CRL.GetCodeRankingList);
 
 
 

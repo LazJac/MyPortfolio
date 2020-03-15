@@ -7,7 +7,7 @@ const CreateRankingLists = function(listMatrix)
     {
         return false;
     }
-    
+
     const MakePattern = function(rankItem)
     {
         let pattern = "<p id='" + rankItem[1] + "'>" + rankItem[0] + "</p>";

@@ -1,7 +1,7 @@
 "use strict";
 
 
-const list =
+const listRankings =
 [
   //[Code,  Rating]
     [1      ,1.5],
@@ -9,20 +9,20 @@ const list =
     [3      ,3.5]
 ];
 
-const MakePattern = function(rankItem)
+const MakePatternForRankings = function(rankItem)
 {
     let pattern = "<p id='" + rankItem[1] + "'>" + rankItem[0] + "</p>";
     return pattern;
 }
 
-let stringElements = [];
-for (let i = 0;i < list.length;++i)
+stringElements = [];
+for (let i = 0;i < listRankings.length;++i)
 {
-    stringElements.push(MakePattern(list[i]));
+    stringElements.push(MakePatternForRankings(listRankings[i]));
 }
 
 
-console.log(CreateRankingLists(stringElements));
+console.log(CreateRankingLists(stringElements,"anchor_profile"));
 
 
 

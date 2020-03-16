@@ -1,7 +1,7 @@
 "use strict";
 
 
-const CreateRankingLists = function(elementList)
+const CreateRankingLists = function(elementList,elementAnchorID)
 {
     if (elementList == null || elementList.length == 0)
     {
@@ -13,8 +13,10 @@ const CreateRankingLists = function(elementList)
         var div = document.createElement('div');
         div.innerHTML = elementList[i];
 
-        document.getElementById("anchor_profile").appendChild(div);
+        document.getElementById(elementAnchorID).appendChild(div);
     }
 
     return true;
 }
+
+let stringElements = [];

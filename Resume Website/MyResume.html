@@ -3,11 +3,12 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jacob van Wyk -- Programmer</title>
 
-        <script defer src="AddHTML_Element.js" type="text/javascript">
-        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="ResumeStyle.css">
+
+        <script src="AddHTML_Element.js" type="text/javascript"></script>
     </head>
 
         <!--  -->
@@ -22,8 +23,8 @@
             Animation will be here!
         </div>
 
-        <!-- Nav -->
         <div class="nav">
+            <!-- Nav -->
             <ul class="navbar-items">
                 <li> <a href="#anchor_start">Start</a> </li>
                 <li> <a href="#anchor_profile">Profile</a> </li>
@@ -33,43 +34,50 @@
         </div>
 
 
-        <div class="main">
-        <!-- Content -->
+        <div class="main-wrapper">
+            <!-- Content -->
 
             <div class="sidebar-ratings" id="anchor_profile">
-            <!--rating of code skill level -->
-                <script defer src="Code_Rankings.js" type="text/javascript">
-                </script>
+                <!--rating of code skill level -->
+                <script src="Code_Rankings.js" type="text/javascript"></script>
             </div>
 
             <div class="profile">
                 <!-- Education -->
-                <p>
-                    <h2>AAA</h2>
-                    AAAA<mark>AAAA</mark>AAAAAAAAA<em>AAAA</em>AAAA<u>AA</u>AAAA
-                </p>
+                <div id="education"></div>
+                    <script src="Text/EducationText.js" type="text/javascript">
+                    </script>
+
                 <!-- Personal skills -->
-                <p>
-                    <h2>BBB</h2>
-                    BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-                </p>
+                <div id="main"></div>
+                    <script src="Text/MainText.js" type="text/javascript">
+                    </script>
+
                 <!-- personal info + hobbies -->
-                <p>
-                    <h2>CCC</h2>
-                    CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-                </p>
+                <div id="hobbies"></div>
+                    <script src="Text/HobbiesText.js" type="text/javascript">
+                    </script>
+
             </div>
 
-            <div class="projects" id="anchor_projects">
-                <!--examples of working projects -->
-                <script defer src="Projects.js" type="text/javascript">
-                </script>
-            </div>
         </div>
 
 
+        <div class="projects" id="anchor_projects">
+            <!--examples of working projects -->
+            <script src="Projects.js" type="text/javascript"></script>
+        </div>
+
         <div class="footer" id="anchor_info">
-        <!--Contact + links -->
+            <!--Contact + links -->
+            <ul class="footer-left">
+                <li> <a href="#">LINK</a> </li>
+                <li> <a href="#">LINK</a> </li>
+            </ul>
+            <ul class="footer-right">
+                <li> <a href="#">LINK</a> </li>
+                <li> <a href="#">LINK</a> </li>
+            </ul>
         </div>
 
     </body>

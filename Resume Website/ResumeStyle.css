@@ -1,0 +1,66 @@
+/*
+    Flexblock design pattern
+    color pallet
+    font stuff
+
+*/
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+}
+
+.header
+{
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+}
+
+.nav
+{
+    text-align: center;
+    color: white;
+}
+
+.main-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar-ratings
+{
+    flex: 13%;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.profile
+{
+    flex: 87%;
+    text-align: center;
+    background-color: white;
+}
+
+
+.projects
+{
+    color: white;
+}
+
+.footer
+{
+    text-align: center;
+    background: #ddd;
+}
+
+h2
+{
+    color: red;
+}

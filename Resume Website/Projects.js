@@ -4,14 +4,17 @@
 const listProjects =
 [
   //[Code,  Rating]
-    [4      ,4.5],
-    [5      ,5.5],
-    [6      ,6.5]
+    [4      ,"stars.jpg"],
+    [5      ,"stars.jpg"],
+    [6      ,"stars.jpg"]
 ];
 
 const MakePatternForProjects = function(rankItem)
 {
-    let pattern = "<p id='" + rankItem[1] + "'>" + rankItem[0] + "</p>";
+    let pattern = "<p>" + rankItem[0]
+                        + "</p><img src='" + rankItem[1]
+                        + "' alt='" + rankItem[0]
+                        + "' style='height: 30px;'>";
     return pattern;
 }
 

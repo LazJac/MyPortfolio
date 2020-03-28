@@ -1,31 +1,76 @@
 /*
-    Flexblock design pattern
-    color pallet
-    font stuff
-
+    #e6e6e6
+    #403b41
+    #22aee2
+    #f64089
+    #d4cdf4
 */
+
+mark
+{
+  background-color: #f64089;
+  color: white;
+}
+
+u
+{
+    text-decoration: underline;
+    text-decoration-color: #22aee2;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+p
+{
+    color: #22aee2;
+}
 
 *
 {
+    margin: 0;
     box-sizing: border-box;
+    font-family: Helvetica;
+    color: #403b41;
 }
 
 body
 {
-    background-color: black;
+    background-color: #403b41;
+    margin: 0;
 }
 
 .header
 {
+    margin: 0;
+    padding: 0;
+
     text-align: center;
-    background-color: #1abc9c;
+    background-color: #f64089;
     color: white;
 }
 
 .nav
 {
-    text-align: center;
-    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #d4cdf4;
+}
+
+ul.navbar-items
+{
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 70%;
+}
+
+ul.navbar-items li
+{
+    padding: 5px;
 }
 
 .main-wrapper
@@ -36,31 +81,69 @@ body
 
 .sidebar-ratings
 {
+    padding: 40px;
+
     flex: 13%;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
 }
 
 .profile
 {
+    padding: 30px;
+    padding-left: 200px;
+
     flex: 87%;
-    text-align: center;
+    text-align: left;
     background-color: white;
 }
 
 
 .projects
 {
+    padding: 30px;
+    padding-top: 70px;
+
     color: white;
 }
 
 .footer
 {
-    text-align: center;
-    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-h2
+
+.footer-left
 {
-    color: red;
+    margin: 0;
+    padding: 8px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    text-align: right;
+    flex: 50%;
+    background-color: #d4cdf4;
+}
+
+ul.footer-left
+{
+    list-style-type: none;
+}
+
+.footer-right
+{
+    margin: 0;
+    padding: 8px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    text-align: left;
+    flex: 50%;
+    background-color: #d4cdf4;
+}
+
+ul.footer-right
+{
+    list-style-type: none;
 }

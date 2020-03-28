@@ -4,14 +4,17 @@
 const listRankings =
 [
   //[Code,  Rating]
-    [1      ,1.5],
-    [2      ,2.5],
-    [3      ,3.5]
+    [1      ,"stars.jpg"],
+    [2      ,"stars.jpg"],
+    [3      ,"stars.jpg"]
 ];
 
 const MakePatternForRankings = function(rankItem)
 {
-    let pattern = "<p id='" + rankItem[1] + "'>" + rankItem[0] + "</p>";
+    let pattern = "<p>" + rankItem[0] 
+                        + "</p><img src='" + rankItem[1]
+                        + "' alt='" + rankItem[0]
+                        + "' style='height: 30px;'>";
     return pattern;
 }
 

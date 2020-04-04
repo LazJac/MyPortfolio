@@ -1,15 +1,15 @@
 "use strict";
 
 
-const listProjects =
+const listProjects =                    //Hardcoding Project Units; Easier to add more later
 [
   //[Code,  Rating]
-    [4      ,"stars.jpg"],
-    [5      ,"stars.jpg"],
-    [6      ,"stars.jpg"]
+    [4      ,"Images/stars.jpg"],
+    [5      ,"Images/stars.jpg"],
+    [6      ,"Images/stars.jpg"]
 ];
 
-const MakePatternForProjects = function(rankItem)
+const MakePatternForProjects = function(rankItem) //Project Units's HTML pattern for each item
 {
     let pattern = "<p>" + rankItem[0]
                         + "</p><img src='" + rankItem[1]
@@ -18,11 +18,5 @@ const MakePatternForProjects = function(rankItem)
     return pattern;
 }
 
-stringElements = [];
-for (let i = 0;i < listProjects.length;++i)
-{
-    stringElements.push(MakePatternForProjects(listProjects[i]));
-}
-
-
-console.log(CreateRankingLists(stringElements,"anchor_projects"));
+//CreateElementList found in AddHTML_Element.js
+console.log(CreateElementList("anchor_projects", listProjects, MakePatternForProjects));

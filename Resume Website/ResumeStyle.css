@@ -6,6 +6,7 @@
     #d4cdf4
 */
 
+/* Extra stuff */
 mark
 {
   background-color: #f64089;
@@ -28,6 +29,8 @@ p
     color: #22aee2;
 }
 
+
+/* "Global" format */
 *
 {
     margin: 0;
@@ -38,20 +41,34 @@ p
 
 body
 {
-    background-color: #403b41;
     margin: 0;
+
+    background-color: #403b41;
+
+    background-image: url(Images/Homepage.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+
+/* body.header formats */
 .header
 {
     margin: 0;
     padding: 0;
 
+    height: 100vh;
+    width:  100vw;
+
     text-align: center;
-    background-color: #f64089;
-    color: white;
+    color: #f64089;
 }
 
+
+/* body.nav formats */
 .nav
 {
     position: -webkit-sticky;
@@ -63,7 +80,7 @@ body
 ul.navbar-items
 {
     display: flex;
-    align-items: stretch; /* Default */
+    align-items: stretch;
     justify-content: space-between;
     width: 70%;
 }
@@ -73,40 +90,48 @@ ul.navbar-items li
     padding: 5px;
 }
 
+
+/* body.main-wrapper formats */
 .main-wrapper
 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sidebar-ratings
-{
-    padding: 40px;
+    /* main-wrapper.sidebar-ratings formats */
+    .sidebar-ratings
+    {
+        padding: 40px;
 
-    flex: 13%;
-    text-align: center;
-    background-color: #e6e6e6;
-}
+        flex: 13%;
+        text-align: center;
+        background-color: #e6e6e6;
+    }
 
-.profile
-{
-    padding: 30px;
-    padding-left: 200px;
+    /* main-wrapper.profile formats */
+    .profile
+    {
+        padding: 30px;
+        padding-left: 200px;
 
-    flex: 87%;
-    text-align: left;
-    background-color: white;
-}
+        flex: 87%;
+        text-align: left;
+        background-color: white;
+    }
 
 
+/* body.projects formats */
 .projects
 {
     padding: 30px;
     padding-top: 70px;
 
-    color: white;
+    text-align: center;
+    background-color: #403b41;
 }
 
+
+/* body.footer formats */
 .footer
 {
     display: flex;

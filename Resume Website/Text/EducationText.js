@@ -1,18 +1,19 @@
-let text = ["<p><h1>Education</h1>" +
+console.log(CreateRankingLists("education",
+["<p><h1>Education</h1>" +
 "AAAA<mark>AAAA</mark>AAAAAAAAA<em>AAAA</em>AAAA<u>AA</u>AAAAAAAA</br>" +
 
-"<h2>High School Driehoek <img src='driehoek.jpg' alt='driehoekIcon' style='float:left;width:24px;height:24px;'> </br>" +
+"<h2>High School Driehoek <img src='Images/driehoek.jpg' alt='driehoekIcon' style='float:left;width:24px;height:24px;'> </br>" +
 "2010 - 2014</h2></br>" +
-"<h3>Relevant subjects:</br></h3>" +
+"<h3><u>Relevant subjects:</u></br></h3>" +
 "</br>" +
 "Mathematics </br>" +
 "Information Technology</br>" +
 "</br>" +
 "</br>" +
-"<h2>North West University: Vaal Campus (Vanderbijlpark) <img src='nwu.jpg' alt='NWU_Icon' style='float:left;width:24px;height:24px;'> </br>" +
+"<h2>North West University: Vaal Campus (Vanderbijlpark) <img src='Images/nwu.jpg' alt='NWU_Icon' style='float:left;width:24px;height:24px;'> </br>" +
 "2015 - 2019</h2></br>" +
-"Information Technology (264 100 - N150V)</br>" +
-"<h3>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</br></h3>" +
+"<em>Information Technology (264 100 - N150V)</em> </br>" +
+"<h3><u>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</u></br></h3>" +
 "</br><ul>" +
 "<li>C#</br></li>" +
 "<li>Java</br></li>" +
@@ -30,7 +31,5 @@ let text = ["<p><h1>Education</h1>" +
 "<li>IT Development</br></li>" +
 "<li>Accounting</br></li>" +
 "<li>Business Management </br></li>" +
-"<li>Statistics </li></ul></p>"];
-
-
-console.log(CreateRankingLists(text,"education"));
+"<li>Statistics </li></ul></p>"]
+));

@@ -4,20 +4,20 @@
 const listRankings =                //Hardcoding Code-Ranking Units; Easier to add more later
 [
   //[CodeName        ,  Rating]
-    ["C#"            , "Images/stars.jpg"],
-    ["Java"          , "Images/stars.jpg"],
-    ["Visual Basics" , "Images/stars.jpg"],
-    ["Phython"       , "Images/stars.jpg"],
-    ["PHP"           , "Images/stars.jpg"],
-    ["MySQL"         , "Images/stars.jpg"],
-    ["Javascript"    , "Images/stars.jpg"],
-    ["MS-DOS"        , "Images/stars.jpg"],
-    ["UNIX"          , "Images/stars.jpg"],
-    ["Git"           , "Images/stars.jpg"],
-    ["HTML/CSS"      , "Images/stars.jpg"],
-    ["Django"        , "Images/stars.jpg"],
-    ["Google Cloud"  , "Images/stars.jpg"],
-    ["ASP.NET"       , "Images/stars.jpg"]
+    ["C#"            , "Images/star5.png"],
+    ["Java"          , "Images/star5.png"],
+    ["Visual Basics" , "Images/star5.png"],
+    ["Phython"       , "Images/star5.png"],
+    ["PHP"           , "Images/star4.png"],
+    ["MySQL"         , "Images/star5.png"],
+    ["Javascript"    , "Images/star4.png"],
+    ["MS-DOS"        , "Images/star2.png"],
+    ["UNIX"          , "Images/star3.png"],
+    ["Git"           , "Images/star4.png"],
+    ["HTML/CSS"      , "Images/star5.png"],
+    ["Django"        , "Images/star3.png"],
+    ["Google Cloud"  , "Images/star4.png"],
+    ["ASP.NET"       , "Images/star4.png"]
 ];
 
 
@@ -28,7 +28,8 @@ const MakePatternForRankings = function(rankItem) //Code-Ranking Units's HTML pa
     let pattern = "<p>" + rankItem[0]
                         + "</p><img src='" + rankItem[1]
                         + "' alt='" + rankItem[0]
-                        + "' style='height: 30px;'>";
+                        + "' style='height: 26px;'"
+                        + " >";
     return pattern;
 }
 

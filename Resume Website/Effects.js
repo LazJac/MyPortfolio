@@ -14,9 +14,48 @@ const FlashRed = function()
         setTimeout(function(){ document.getElementById("sidebar").style.background = "#f64089"; } , timer);
         timer += timeInterval;
         setTimeout(function(){ document.getElementById("sidebar").style.background = ogColor; } , timer);
-        
+
         ++tel;
     }
 
     console.log("true");
+}
+
+const ProjectVideoController = function(isHovering, image, gifElement)
+{
+    if (image == null)
+    {
+        console.log(false);
+        return;
+    }
+
+    if (ZoomInEffect(isHovering, gifElement))
+    {
+        gifElement.src = image;
+    }
+    else
+    {
+        console.log(false);
+        return;
+    }
+}
+
+const ZoomInEffect = function(isHovering, element)
+{
+    if (element == null)
+    {
+        console.log(false);
+        return false;
+    }
+
+    if (isHovering)
+    {
+        element.style.transform = "scale(1.18)";
+    }
+    else
+    {
+        element.style.transform = "scale(1)";
+    }
+
+    return true;
 }

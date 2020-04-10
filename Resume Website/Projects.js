@@ -3,18 +3,26 @@
 
 const listProjects =                    //Hardcoding Project Units; Easier to add more later
 [
-  //[Code,  Rating]
-    [4      ,"Images/stars.jpg"],
-    [5      ,"Images/stars.jpg"],
-    [6      ,"Images/stars.jpg"]
+  //[Link                                           ,  Start img           , End img]
+    ["https://github.com/LazJac"                    ,"Videos/start.gif"    ,"Videos/end.gif"]
 ];
 
 const MakePatternForProjects = function(rankItem) //Project Units's HTML pattern for each item
 {
-    let pattern = "<p>" + rankItem[0]
-                        + "</p><img src='" + rankItem[1]
-                        + "' alt='" + rankItem[0]
-                        + "' style='height: 30px;'>";
+/*ex  </br></br><a href="https://github.com/LazJac" target='_blank'>
+                <img  onmouseenter='ProjectVideoController(true,"Videos/end.gif",this)'
+                      onmouseleave='ProjectVideoController(false,"Videos/start.gif",this)'
+                      src="Videos/start.gif"
+                      alt='projectImage' style='width: 52vw;height: 13vw;object-fit: scale-down;'>
+                </a></br>
+                <hr>
+*/
+    let pattern = "</br></br><a href='" + rankItem[0] + "' target='_blank'>" +
+                  "<img onmouseenter='ProjectVideoController(true, \"" + rankItem[2] + "\" ,this)'" +
+                       "onmouseleave='ProjectVideoController(false, \"" + rankItem[1] + "\" ,this)'" +
+                       "src='" + rankItem[1] + "'alt='projectImage'" +
+                       " style='width: 52vw;height: 13vw;object-fit: scale-down;'></a></br></br>" +
+                       "<hr style='margin-left: auto;margin-right: auto;'>";
     return pattern;
 }
 

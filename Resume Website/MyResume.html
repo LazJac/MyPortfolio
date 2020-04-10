@@ -16,7 +16,30 @@
     <body>
 
         <!-- Header/Starting page -->
-        <div class="header" id="anchor_start"></div>
+        <div class="header" id="anchor_start">
+            <p id="head">
+                Jacob. J. van Wyk</br>
+                Software Developer
+            </p>
+            <div class="intro">
+                <div class="left-arm">
+                    Fast Learner</br>
+                    Coding since 12 years old</br>
+                    BSc in Information Technology</br>
+                    Organized and Efficient</br>
+                </div>
+                <div class="center">
+                    <img src="Images/mug.jpeg" alt="Mug" style="width:220px;height:220px;">
+                </div>
+                <div class="right-arm">
+                    Team player</br>
+                    Always willing to learn</br>
+                    Keeping up with Technology Trends</br>
+                    Creative Problem Solver</br>
+                </div>
+            </div>
+
+        </div>
 
         <!-- Nav -->
         <div class="nav">
@@ -39,18 +62,30 @@
 
             <div class="profile" id="anchor_profile">
                 <!-- Work Experience -->
-                <div id="xp"></div>
+                <div id="xp"
+                    style="border: 3px solid #403b41;background-color: white;border-radius: 10px;padding: 20px;"
+                    onmouseenter="ZoomInEffect(true, this)"
+                    onmouseleave="ZoomInEffect(false, this)"></div>
+
                     <script src="Text/XP.js" type="text/javascript">
                     </script></br>
 
-                <!-- Education -->
-                <div id="education"></div>
-                    </br><script src="Text/EducationText.js" type="text/javascript">
+                <!-- Skills -->
+                <div id="skills"
+                    style="border: 3px solid #403b41;background-color: white;border-radius: 10px;padding: 20px;"
+                    onmouseenter="ZoomInEffect(true, this)"
+                    onmouseleave="ZoomInEffect(false, this)"></div>
+
+                    <script src="Text/Skills.js" type="text/javascript">
                     </script></br>
 
-                <!-- Skills -->
-                <div id="skills"></div>
-                    </br><script src="Text/Skills.js" type="text/javascript">
+                <!-- Education -->
+                <div id="education"
+                    style="border: 3px solid #403b41;background-color: white;border-radius: 10px;padding: 20px;"
+                    onmouseenter="ZoomInEffect(true, this)"
+                    onmouseleave="ZoomInEffect(false, this)"></div>
+
+                    <script src="Text/EducationText.js" type="text/javascript">
                     </script>
 
             </div>
@@ -58,6 +93,9 @@
 
         <!-- Projects -->
         <div class="projects" id="anchor_projects">
+            <p id="head" style="color:white;padding-top:10px;">
+                Projects:
+            </p>
             <!--examples of completed projects -->
             <script src="Projects.js" type="text/javascript"></script>
         </div>
@@ -73,6 +111,8 @@
                 <li> <a>Email: vwykjacoj@gmail.com</a> </li>
             </ul>
         </div>
+
+
 
     </body>
 

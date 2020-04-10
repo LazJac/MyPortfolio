@@ -7,6 +7,13 @@
 */
 
 /* Extra stuff */
+@font-face
+{
+    font-family: glass;
+    src: url(Text/Glass_Antiqua/GlassAntiqua-Regular.ttf);
+}
+
+
 mark
 {
   background-color: #f64089;
@@ -24,11 +31,26 @@ ul
     list-style-type: circle;
 }
 
+hr
+{
+    color: #e6e6e6;
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p
 {
     color: #22aee2;
 }
-
 
 /* "Global" format */
 *
@@ -49,7 +71,6 @@ body
     margin: 0;
 
     background-color: #403b41;
-
     background-image: url(Images/Homepage.jpg);
 
     background-position: center;
@@ -67,9 +88,57 @@ body
 
     height: 100vh;
     width: calc(100vw - (100vw - 100%));
-
-    text-align: center;
 }
+
+    /* body.header.p#head formats */
+    #head
+    {
+        padding-top: 15vh;
+
+        font-family: glass;
+        font-size: 100px;
+        color: #403b41;
+        text-align: center;
+    }
+
+/* body.header formats */
+.intro
+{
+    padding-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    font-size: 25px;
+    line-height: 40px;
+    color: #403b41;
+}
+
+    /* body.header.intro formats */
+    .left-arm
+    {
+        padding-top: 25px;
+        flex:40%;
+
+        font-family: federant;
+        text-align: right;
+    }
+
+    .center
+    {
+        flex:10%;
+        text-align: center;
+    }
+
+    .right-arm
+    {
+        padding-top: 25px;
+        flex:40%;
+
+        font-family: federant;
+        text-align: left;
+    }
 
 
 /* body.nav formats */
@@ -79,6 +148,7 @@ body
     position: sticky;
     top: 0;
     background-color: #d4cdf4;
+    z-index: 99;
 }
 
 ul.navbar-items
@@ -118,23 +188,27 @@ ul.navbar-items li
     {
         padding: 30px;
         padding-left: 13vw;
+        padding-right: 13vw;
 
         flex: 85%;
         text-align: left;
-        background-color: white;
+        background-color: #403b41;
+        z-index: 95;
     }
 
 
 /* body.projects formats */
 .projects
 {
-    padding: 30px;
     padding-top: 70px;
+    padding-bottom: 40px;
 
     text-align: center;
-    background-color: #403b41;
-}
+    background-color: #d4cdf4;
 
+    transform: scale(1);
+    z-index: 95;
+}
 
 /* body.footer formats */
 .footer
@@ -148,7 +222,7 @@ ul.navbar-items li
 {
     margin: 0;
     padding: 8px;
-    padding-top: 18px;
+    padding-top: 0px;
     padding-bottom: 50px;
 
     text-align: right;
@@ -165,7 +239,7 @@ ul.footer-left
 {
     margin: 0;
     padding: 8px;
-    padding-top: 18px;
+    padding-top: 0px;
     padding-bottom: 50px;
 
     text-align: left;

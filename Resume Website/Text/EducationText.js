@@ -1,9 +1,9 @@
 console.log(CreateRankingLists("education",
-["<p><h1>Education</h1></br>" +
+["</br><p><h1><u>Education:</u></h1></br>" +
 
 "<h2>High School Driehoek <img src='Images/driehoek.jpg' alt='driehoekIcon' style='float:left;width:24px;height:24px;'> </br>" +
 "2010 - 2014</h2></br>" +
-"<h3><u>Relevant subjects:</u></br></h3>" +
+"<h3>Relevant subjects:</br></h3>" +
 "</br>" +
 "Mathematics </br>" +
 "Information Technology</br>" +
@@ -14,7 +14,7 @@ console.log(CreateRankingLists("education",
 "2015 - 2019</h2></br>" +
 
 "<em>Information Technology (264 100 - N150V)</em> </br>" +
-"<h3><u>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</u></br></h3>" +
+"<h3>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</br></h3>" +
 "</br><ul>" +
 "<li>C#</br></li>" +
 "<li>Java</br></li>" +
@@ -32,5 +32,5 @@ console.log(CreateRankingLists("education",
 "<li>Discrete Mathematics</br></li>" +
 "<li>Accounting</br></li>" +
 "<li>Business Management </br></li>" +
-"<li>Statistics </li></ul></p>"]
+"<li>Statistics </li></ul></br></br></br><hr></p>"]
 ));

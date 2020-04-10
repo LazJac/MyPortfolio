@@ -1,7 +1,7 @@
 console.log(CreateRankingLists("education",
 ["</br><p><h1><u>Education:</u></h1></br>" +
 
-"<h2>High School Driehoek <img src='Images/driehoek.jpg' alt='driehoekIcon' style='float:left;width:24px;height:24px;'> </br>" +
+"<h2>High School Driehoek <img src='Docs/Images/driehoek.jpg' alt='driehoekIcon' style='float:left;width:24px;height:24px;'> </br>" +
 "2010 - 2014</h2></br>" +
 "<h3>Relevant subjects:</br></h3>" +
 "</br>" +
@@ -10,7 +10,7 @@ console.log(CreateRankingLists("education",
 "</br>" +
 "</br>" +
 
-"<h2>North West University: Vaal Campus (Vanderbijlpark) <img src='Images/nwu.jpg' alt='NWU_Icon' style='float:left;width:24px;height:24px;'> </br>" +
+"<h2>North West University: Vaal Campus (Vanderbijlpark) <img src='Docs/Images/nwu.jpg' alt='NWU_Icon' style='float:left;width:24px;height:24px;'> </br>" +
 "2015 - 2019</h2></br>" +
 
 "<em>Information Technology (264 100 - N150V)</em> </br>" +

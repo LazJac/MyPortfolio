@@ -50,7 +50,7 @@ const ZoomInEffect = function(isHovering, element)
 
     if (isHovering)
     {
-        element.style.transform = "scale(1.18)";
+        element.style.transform = "scale(1.1)";
     }
     else
     {

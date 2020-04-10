@@ -4,20 +4,20 @@
 const listRankings =                //Hardcoding Code-Ranking Units; Easier to add more later
 [
   //[CodeName        ,  Rating]
-    ["C#"            , "Images/star5.png"],
-    ["Java"          , "Images/star5.png"],
-    ["Visual Basics" , "Images/star5.png"],
-    ["Phython"       , "Images/star5.png"],
-    ["PHP"           , "Images/star4.png"],
-    ["MySQL"         , "Images/star5.png"],
-    ["Javascript"    , "Images/star4.png"],
-    ["MS-DOS"        , "Images/star2.png"],
-    ["UNIX"          , "Images/star3.png"],
-    ["Git"           , "Images/star4.png"],
-    ["HTML/CSS"      , "Images/star5.png"],
-    ["Django"        , "Images/star3.png"],
-    ["Google Cloud"  , "Images/star4.png"],
-    ["ASP.NET"       , "Images/star4.png"]
+    ["C#"            , "Docs/Images/star5.png"],
+    ["Java"          , "Docs/Images/star5.png"],
+    ["Visual Basics" , "Docs/Images/star5.png"],
+    ["Phython"       , "Docs/Images/star5.png"],
+    ["PHP"           , "Docs/Images/star4.png"],
+    ["MySQL"         , "Docs/Images/star5.png"],
+    ["Javascript"    , "Docs/Images/star4.png"],
+    ["MS-DOS"        , "Docs/Images/star2.png"],
+    ["UNIX"          , "Docs/Images/star3.png"],
+    ["Git"           , "Docs/Images/star4.png"],
+    ["HTML/CSS"      , "Docs/Images/star5.png"],
+    ["Django"        , "Docs/Images/star3.png"],
+    ["Google Cloud"  , "Docs/Images/star4.png"],
+    ["ASP.NET"       , "Docs/Images/star4.png"]
 ];
 
 

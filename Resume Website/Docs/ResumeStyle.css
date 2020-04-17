@@ -10,7 +10,7 @@
 @font-face
 {
     font-family: glass;
-    src: url(Docs/Text/Glass_Antiqua/GlassAntiqua-Regular.ttf);
+    src: url(Text/glass.ttf);
 }
 
 
@@ -71,7 +71,7 @@ body
     margin: 0;
 
     background-color: #403b41;
-    background-image: url(Images/Homepage.jpg);
+    background-image: url(Images/Homepage.png);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ body
     flex-wrap: wrap;
 
 
-    font-size: 25px;
+    font-size: 28px;
     line-height: 40px;
     color: #403b41;
 }

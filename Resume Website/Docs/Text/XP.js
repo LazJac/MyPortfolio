@@ -7,7 +7,7 @@ console.log(CreateRankingLists("xp",
 "<li>I have experience working with<mark> Cloud Computing </mark>for a university project, where we needed to make" +
 " a website that</br> emulated version control.</li></br>" +
 
-"<ul><li>The database was on a remove cloud server (Google Cloud) and <u>php/mysql</u> were used to update " +
+"<ul><li>The database was on a remote cloud server (Google Cloud) and <u>php/mysql</u> were used to update " +
 "the database.</li></ul></br>" +
 
 "<li>I am also well versed in the software and hardware of<mark> Servers </mark>.</li></br>" +

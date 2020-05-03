@@ -4,20 +4,20 @@
 const listRankings =                //Hardcoding Code-Ranking Units; Easier to add more later
 [
   //[CodeName        ,  Rating]
-    ["C#"            , "Docs/Images/star5.png"],
-    ["Java"          , "Docs/Images/star5.png"],
-    ["Visual Basics" , "Docs/Images/star5.png"],
-    ["Phython"       , "Docs/Images/star5.png"],
-    ["PHP"           , "Docs/Images/star4.png"],
-    ["MySQL"         , "Docs/Images/star5.png"],
-    ["Javascript"    , "Docs/Images/star4.png"],
-    ["MS-DOS"        , "Docs/Images/star2.png"],
-    ["UNIX"          , "Docs/Images/star3.png"],
-    ["Git"           , "Docs/Images/star4.png"],
-    ["HTML/CSS"      , "Docs/Images/star5.png"],
-    ["Django"        , "Docs/Images/star3.png"],
-    ["Google Cloud"  , "Docs/Images/star4.png"],
-    ["ASP.NET"       , "Docs/Images/star4.png"]
+    ["C#"            , "Docs/Images/star5.webp"],
+    ["Java"          , "Docs/Images/star5.webp"],
+    ["Visual Basics" , "Docs/Images/star5.webp"],
+    ["Phython"       , "Docs/Images/star5.webp"],
+    ["PHP"           , "Docs/Images/star4.webp"],
+    ["MySQL"         , "Docs/Images/star5.webp"],
+    ["Javascript"    , "Docs/Images/star4.webp"],
+    ["MS-DOS"        , "Docs/Images/star2.webp"],
+    ["UNIX"          , "Docs/Images/star3.webp"],
+    ["Git"           , "Docs/Images/star4.webp"],
+    ["HTML/CSS"      , "Docs/Images/star5.webp"],
+    ["Django"        , "Docs/Images/star3.webp"],
+    ["Google Cloud"  , "Docs/Images/star4.webp"],
+    ["ASP.NET"       , "Docs/Images/star4.webp"]
 ];
 
 

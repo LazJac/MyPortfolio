@@ -1,4 +1,4 @@
-## ==BOIDS System w/ Movable boundaries==
+## BOIDS System w/ Movable boundaries
 
 # Intro:
 
@@ -16,10 +16,10 @@ form a group even tho they only react to what the bird in front of them are doin
 The way a BOIDS system try to mimic this behavior is by adhering a single "bird" to 3
 constraints:
 
-1. ==Alignment== : 	Align yourself with the average alignment of all neighboring birds in 
+1. Alignment : 	Align yourself with the average alignment of all neighboring birds in 
 					a small radius around you.
-1. ==Avoidance== : 	Make sure to leave a small space between you and the birds around you.
-1. ==Cohesion== :	Move toward the average position of all neighboring birds in a small 
+1. Avoidance : 	Make sure to leave a small space between you and the birds around you.
+1. Cohesion :	Move toward the average position of all neighboring birds in a small 
 					radius around you.
 					
 > I added a extra behavior to make sure the "birds" stays adhered within a certain boundary,

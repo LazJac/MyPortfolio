@@ -27,5 +27,5 @@ even if the boundary moves.
 
 # Inspired by:
 
-[SmarterEveryDay - Flocking Behavior of Birds (Boids Algorithm) - Smarter Every Day 234](https://www.youtube.com/watch?v=4LWmRuB-uNU&ab_channel=SmarterEveryDay)
-[Board To Bits - Flocking Algorithm in Unity Tutorial](https://www.youtube.com/playlist?list=PL5KbKbJ6Gf99UlyIqzV1UpOzseyRn5H1d)
++ [SmarterEveryDay - Flocking Behavior of Birds (Boids Algorithm) - Smarter Every Day 234](https://www.youtube.com/watch?v=4LWmRuB-uNU&ab_channel=SmarterEveryDay)
++ [Board To Bits - Flocking Algorithm in Unity Tutorial](https://www.youtube.com/playlist?list=PL5KbKbJ6Gf99UlyIqzV1UpOzseyRn5H1d)

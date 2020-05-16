@@ -4,7 +4,8 @@
 const listProjects =                    //Hardcoding Project Units; Easier to add more later
 [
   //[Link, Cover img, Animated img]
-    ["https://github.com/LazJac/MyResume/tree/master/Resume%20Website","Docs/Videos/Resume_Anim.gif"]
+    ["https://github.com/LazJac/MyResume/tree/master/Resume%20Website","Docs/Videos/Resume_Anim.gif"],
+	["https://github.com/LazJac/MyResume/tree/master/BOIDS%20System%20with%20Movable%20boundaries","Docs/Videos/Boids.gif"]
 ];
 
 const MakePatternForProjects = function(rankItem) //Project Units's HTML pattern for each item

@@ -1,7 +1,0 @@
-To connect to your database use these details
-
-Server: sql2.freemysqlhosting.net
-Name: sql2257196
-Username: sql2257196
-Password: tC5*aE1!
-Port number: 3306
